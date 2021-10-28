@@ -1,3 +1,69 @@
+<h1 align = "center" >Separating protein and ligand structures </h1 >
+
+<h2 align = "left" >Grep </h2 >
+
+We will use the grep tool to separate these molecules into separate files, and then convert the ligand file into SDF/MOL format using the ‘Compound conversion’ tool, which is based on OpenBabel, an open-source library for analyzing chemical data
+
+**We will follow the below instrunctions**
+```
+Search in textfiles 
+(grep)  Tool: with the following parameters:
+“Select lines from”: Downloaded PDB file ‘Hsp90 structure’
+“that”: Don't match
+“Regular Expression”: HETATM
+All other parameters can be left as their defaults.
+Rename the dataset ‘Protein (PDB)’
+```
+<h3>The result is a file with all non-protein (HETATM) atoms removed.</h3>
+
+![image](https://user-images.githubusercontent.com/68779543/139320094-d2b67da4-6c5b-42c5-ab76-08855950b8ef.png)
+
+
+Now we shall do the same but for the Ligands.
+```
+Search in textfiles (grep) Tool: with the following parameters. Here, we use grep again to produce a file with only non-protein atoms.
+“Select lines from”: Downloaded PDB file ‘Hsp90 structure’
+“that”: Match
+“Regular Expression”: CT5 (the name of the ligand in the PDB file)
+All other parameters can be left as their defaults.
+Rename the dataset ‘Ligand (PDB)’.
+```
+**This produces a file which only contains ligand atoms.**
+
+![image](https://user-images.githubusercontent.com/68779543/139320235-8929b777-f5f8-4675-97a6-b16624eb3252.png)
+
+
+
+```
+Compound conversion  Tool:  with the following parameters:
+“Molecular input file”: Ligand PDB file created in step 2.
+“Output format”: MDL MOL format (sdf, mol)
+“Add hydrogens appropriate for pH”: 7.4
+All other parameters can be left as their defaults.
+Change the datatype to ‘mol’ and rename the dataset ‘Ligand 
+```
+Applying this tool will generate a representation of the structure of the ligand in MOL format.
+
+![image](https://user-images.githubusercontent.com/68779543/139320333-bf34ac6d-34c5-4a90-a542-4f63829a5734.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h1 align="center"> Chembl Database</h1>
 
 Chembl is a chemical database of bioactive with Druglike properties.
