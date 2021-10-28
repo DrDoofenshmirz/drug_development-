@@ -1,10 +1,22 @@
 
 <h1 align = "center" >Introduction </h1 >
-**Cheminformatics** is the use of computational techniques and information about molecules to solve problems in chemistry. This involves a number of steps: retrieving data on chemical compounds, sorting data for properties which are of interest, and extracting new information. This tutorial will provide a brief overview of all of these, centered around protein-ligand docking, a molecular modelling technique. The purpose of protein-ligand docking is to find the optimal binding between a small molecule (ligand) and a protein. It is generally applied to the drug discovery and development process with the aim of finding a potential drug candidate. First, a target protein is identified. This protein is usually linked to a disease and is known to bind small molecules. Second, a ‘library’ of possible ligands is assembled. Ligands are small molecules that bind to a protein and may interfere with protein function. Each of the compounds in the library is then ‘docked’ into the protein to find the optimal binding position and energy.
+**Cheminformatics**  is the use of computational techniques and information about molecules to solve problems in chemistry. This involves a number of steps: retrieving data on chemical compounds, sorting data for properties which are of interest, and extracting new information. This tutorial will provide a brief overview of all of these, centered around protein-ligand docking, a molecular modelling technique. The purpose of protein-ligand docking is to find the optimal binding between a small molecule (ligand) and a protein. It is generally applied to the drug discovery and development process with the aim of finding a potential drug candidate. First, a target protein is identified. This protein is usually linked to a disease and is known to bind small molecules. Second, a ‘library’ of possible ligands is assembled. Ligands are small molecules that bind to a protein and may interfere with protein function. Each of the compounds in the library is then ‘docked’ into the protein to find the optimal binding position and energy.
 
 **Docking** is a form of molecular modelling, but several simplifications are made in comparison to methods such as molecular dynamics. Most significantly, the receptor is generally considered to be rigid, with covalent bond lengths and angles held constant. Charges and protonation states are also not permitted to change. While these approximations reduce accuracy to some extent, they increase computational speed, which is necessary to screen a large compound library in a realistic amount of time.
 
  we will perform docking of ligands into the N-terminus of Hsp90 (heat shock protein 90). The tools used for docking are based on the open-source software AutoDock Vina (Trott and Olson 2009).
+
+<h2 align = "center" > Getting the data related to the Hsp 90 Protein </h2> 
+
+```
+1.	Create a new history for this tutorial
+2.	Search Galaxy for the Get PDB Tool: Request the accession code 2brc.
+3.	Rename the dataset to ‘Hsp90 structure’
+4.	Check that the datatype is correct (PDB file).
+```
+
+![image](https://user-images.githubusercontent.com/68779543/139321512-81da1b9d-5eb2-4b59-8ced-b9ae7aa20dba.png)
+
 
 
 <h1 align = "center" >Separating protein and ligand structures </h1 >
@@ -181,6 +193,7 @@ Search for Replace in the search tools
 Save the output as Replace
 ```
 **Given below is the already given label for the ligand** 
+ 
   ![image](https://user-images.githubusercontent.com/68779543/139303302-dfa3a7d4-f1c1-4f41-a4c4-cc533ac677e7.png)
  
   And this is the output of our operations saved as Replace.
