@@ -1,3 +1,84 @@
+<h1 align="center"> Chembl Database</h1>
+
+Chembl is a chemical database of bioactive with Druglike properties.
+
+Description: A file named "Ligand SMILES" is a text file in Simplified Molecular Input Line Entry System(SMILES) format that contains the requisite information about the ligand complexed with the Hsp90 protein.
+
+ID: CHEMBL399530
+
+Molecular weight: 352.39
+
+Molecular formular:C20H20N2O4
+
+Iupac Name: 4-[4-(2,3-DIHYDRO-1,4-BENZODIOXIN-6-YL)-3-METHYL-1H-PYRAZOL-5-YL]-6-ETHYLBENZENE-1,3-DIOL
+
+Proceed with  the below instrunctions.
+
+```
+
+Compound conversion Tool: with the following parameters:
+“Molecular input file”: ‘Ligand’ PDB file
+“Output format”: SMILES format (SMI)
+Leave all other options as default.
+Rename the output of the ‘compound conversion’ step to ‘Ligand SMILES’.
+
+```
+
+<h2>Following which we look up the Chembl database for our ligands </h2>
+
+
+```
+Search ChEMBL database Tool:  with the following parameters:
+“SMILES input type”: File
+“Input file”: ‘Ligand SMILES’ file
+“Search type”: Similarity
+“Tanimoto cutoff score”: 40
+“Filter for Lipinski’s Rule of Five”: Yes
+All other parameters can be left as their defaults.
+
+```
+
+**Given below are the step by step screenshots of the workflow**.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/68779543/139316408-957a222d-7c5a-469f-a3bc-18a5f3976283.png">
+
+We search for  the Chembl database and use the Ligand SMILES file as our input  and we set the  parameters 'Search type ' as Similarity & the "Tanimoto cutoff Score ' as 40 . Also we apply the 'Filter for Lipsinki's Rule of Five '.
+ 
+![image](https://user-images.githubusercontent.com/68779543/139316685-a84ec431-ea89-408e-bf9d-86aedd10b81b.png)
+ 
+ 
+ Here we can see that our file has been executed and saved .
+![image](https://user-images.githubusercontent.com/68779543/139317100-84ca9504-1035-4481-ae03-2c3b09bef9ef.png)
+
+ Finally we have the output saved under the name ' Compound Library '
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/68779543/139318539-669abee5-d542-40d3-ba47-f75bd8e4e67b.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h1 align="center"> Calculation of fingerprints and clustering</h1>
 <p align="center">
  <img src="https://user-images.githubusercontent.com/68779543/139301860-ff3b6f49-2f50-49b1-84ff-0f4abf989e8b.png" width="350" heigth="350">
