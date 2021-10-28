@@ -85,7 +85,9 @@ Applying this tool will generate a representation of the structure of the ligand
 
 
 
-<h1 align="center"> Chembl Database</h1>
+<h1 align="center"> Creating and processing the compound library</h1>
+<h2 align="center"> Chembl Database</h2>
+
 
 Chembl is a chemical database of bioactive with Druglike properties.
 
@@ -98,6 +100,8 @@ Molecular weight: 352.39
 Molecular formular:C20H20N2O4
 
 Iupac Name: 4-[4-(2,3-DIHYDRO-1,4-BENZODIOXIN-6-YL)-3-METHYL-1H-PYRAZOL-5-YL]-6-ETHYLBENZENE-1,3-DIOL
+
+We will generate our compound library by searching ChEMBL for compounds which have a similar structure to the ligand in the PDB file we downloaded in the first step. There is a Galaxy tool for accessing ChEMBL which requires data input in SMILES format; thus, the first step is to convert the ‘Ligand’ PDB file to a SMILES file. Then the search is performed, returning a SMILES file. For docking, we would like to convert to SDF format, which we can do once again using the ‘Compound conversion’ tool.
 
 Proceed with  the below instrunctions.
 
