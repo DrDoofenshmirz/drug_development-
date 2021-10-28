@@ -6,7 +6,7 @@
 
 
 In this step, we will group similar molecules together. 
-A key tool in cheminformatics for measuring molecular similarity is fingerprinting, which entails extracting chemical properties of molecules and storing them as a bitstring.
+A key tool👩‍🔬👩‍ in cheminformatics for measuring molecular similarity is fingerprinting, which entails extracting chemical properties of molecules and storing them as a bitstring.
 These bitstrings can be easily compared computationally, for example with a clustering method.
 
 We will label each compound first before proceeding with clustering.
@@ -32,7 +32,7 @@ Save the output as Replace
 
 
 
- <h3 align="center">  When labelling is complete, we can concatenate (join together) the library file with the original SMILES file for the ligand from the PDB file.</h3>
+ <h3 align="center">  When labelling is complete 🚀, we can concatenate (join together) the library file with the original SMILES file for the ligand from the PDB file.</h3>
  
   ```
 
@@ -59,7 +59,7 @@ Fingerprinting has been completed  , in which the output consists all the chemic
 ![image](https://user-images.githubusercontent.com/68779543/139305469-45f05455-fd33-4e91-ae8a-c8a04b6f7a86.png)
 
 
-**In the Next step we will proceed with clustering**
+**In the Next step we will proceed with clustering🔬🖥️**
 
 Taylor-Butina clustering (Butina 1999) provides a classification of the compounds into different groups or clusters, based on their structural similarity. This methods shows us how similar the compounds are to the original ligand, and after docking, we can compare the results to the proposed clusters to observe if there is any correlation.
 
