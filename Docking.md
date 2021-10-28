@@ -81,14 +81,14 @@ The image produced by the NxN clustering shows the clustering in the form of a d
 
 Dendrogram produced by NxN clustering. The library used to produce this image is generated with a Tanimoto cutoff of 80; here 15 search results are shown, plus the original ligand contained in the PDB file.
 
- <h1 align="center"> Post-processing</h1>
+ <h1 align="center"> 💻Post-processing💻</h1>
 
 These steps help us to analyse the docking results.
 
-**Extract values from an SD-file**:  This tool comes under the section chemical tool box.
+**Extract values from an SD-file**📋📝:  This tool comes under the section chemical tool box.
 We extracted all stored values into tabular format from our collection of SD-files obtained in docking step and then combined the files together to create a single tabular file for each of the 13 ligands in the Compound library. The tabular file contains RMSD values and Docking score.
 
-**Collapse Collection**: This tool comes under the section Collection operations. Using this tool we combined all the 13 tables obtained above into one single file for easier visualisation.
+**Collapse Collection**: This tool comes under the section Collection operations. Using this tool we combined all the 13 tables obtained above into one single file for easier visualisation 💷 💶.
 
 We now have a tabular file available which contains all poses calculated for all ligands docked together with scores and RMSD values.
 
@@ -112,9 +112,9 @@ Docking of ligand 1 to the active site of HSP90
 
 Docking of ligand 2 to the active site of HSP90
 
-Scatter plot: A scatter plot is a type of plot or mathematical diagram used to display values of two variables for a set of data. If the variables are correlated, the points will fall along a line or curve. A scatter plot of RMSD (compared to optimal docking pose) against docking score is calculated below
+Scatter plot 📊 📈 📉: A scatter plot is a type of plot or mathematical diagram used to display values of two variables for a set of data. If the variables are correlated, the points will fall along a line or curve. A scatter plot of RMSD (compared to optimal docking pose) against docking score is calculated below
 
-![image](https://user-images.githubusercontent.com/68779543/139311410-640a823a-c953-4166-9e44-33455814b378.png)
+![image](https://user-images.githubusercontent.com/68779543/139312492-389e24df-99fc-4979-bd64-a4e78db744bb.png)
 
 
 
