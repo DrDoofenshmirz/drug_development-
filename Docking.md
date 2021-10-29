@@ -213,6 +213,7 @@ We can see below that we obtained individual sdf output files for 13 ligands.
 ![image](https://user-images.githubusercontent.com/68779543/139452594-420ec669-5c88-4ff3-8f81-357568ae3e1a.png)
 
 For example, here is the sdf file of the Ligand 1 i.e “ligand1_docked”-
+
 ![image](https://user-images.githubusercontent.com/68779543/139452656-f4cd3d0f-79f1-43a3-8a3f-20eae751720d.png)
 
 
