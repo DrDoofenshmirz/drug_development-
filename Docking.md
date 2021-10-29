@@ -207,23 +207,26 @@ This is how the data looks like of ligand 10 docked.
 <h1> Visualization </h1>
 It can be useful to visualize the compounds generated.
 We followed the below instructions for visualising the compounds.
+
 ```
-Visualisation Tool: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy0 with the following parameters:
-
+Visualisation Tool:  with the following parameters:
 “Molecular input file”: Compound library
-
 “Embed molecule as CML”: No
-
 “Draw all carbon atoms”: No
-
 “Use thicker lines”: No
-
 “Property to display under the molecule”: Molecule title
-
 “Sort the displayed molecules by”: Molecular weight
-
 “Format of the resultant picture”: SVG
 ```
+
+
+
+
+
+
+
+
+
 
 <h3>This produces an SVG image of all the structures generated ordered by molecular weight.</h3>
 
