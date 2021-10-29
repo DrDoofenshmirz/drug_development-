@@ -164,7 +164,8 @@ Further, docking requires the coordinates of a binding site to be defined. Effec
 
 In this , we worked on compound conversion form of the protein and the CHEMBL search ligands to PDBQT format.  We searched for ‘Prepare receptor’ in the Galaxy tools and selected  “Protein PDB file” as the ‘Select a PDB file’ while all other parameters were left as default. 
 
- For the Ligands conversion, we searched for  Compound conversion in the Galaxy tools and select  “Compound library” file as the “Molecular input file”; selected “SDF” as the “Output format”; select “Yes” for the “Generate 3D coordinates”; set “Add hydrogens appropriate for pH” to 7.4 while all other parameters were left as default. Rename to ‘Prepared ligands’
+ For the Ligands conversion, we searched for  
+ Compound conversion in the Galaxy tools and select  “Compound library” file as the “Molecular input file”; selected “SDF” as the “Output format”; select “Yes” for the “Generate 3D coordinates”; set “Add hydrogens appropriate for pH” to 7.4 while all other parameters were left as default. Rename to ‘Prepared ligands’
 
 
 ![image](https://user-images.githubusercontent.com/68779543/139435148-339087aa-8ac8-466f-8197-1a96629aaa09.png)
@@ -187,13 +188,20 @@ Rename to ‘Docking config file’.
 <h1> Docking </h1>
 Now that the protein and the ligand library have been correctly prepared and formatted, docking can be performed
 Search for **Docking** in the search tools  and set it with the following paramters.
-```
-Docking Tool: with the following parameters:
+
+
+```Docking Tool: with the following parameters:
+
 “Receptor”: ‘Protein PDBQT’ file.
+
 “Ligands”: ‘Prepared ligands’ file.
+
 “Specify pH value for ligand protonation”: 7.4
+
 “Specify parameters”: ‘Upload a config file to specify parameters’
+
 “Box configuration”: ‘Docking config file’
+
 “Exhaustiveness”: leave blank (it was specified in the previous step)
 ```
 
