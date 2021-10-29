@@ -24,8 +24,9 @@ Create a new history for this tutorial
 	<h3>	Check that the datatype is correct (PDB file).</h3>
  ![image](https://user-images.githubusercontent.com/68779543/139440098-5a44bc54-36d0-42e1-8b13-6b93f687fd61.png)
 
+![image](https://user-images.githubusercontent.com/68779543/139452878-39c0ec4a-2c60-4977-b998-6119ac092eec.png)
 
-![image](https://user-images.githubusercontent.com/68779543/139321512-81da1b9d-5eb2-4b59-8ced-b9ae7aa20dba.png)
+Fig 1. Structure of Hsp90 N-terminus, as recorded on the PDB. Visualization produced using NGL viewer
 
 
 
