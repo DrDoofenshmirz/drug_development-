@@ -194,9 +194,23 @@ This is how the data looks like of ligand 10 docked.
 <h3>The output consists of a collection, which contains an SDF output file for each ligand, containing multiple docking poses and scoring files for each of the ligands. We will now perform some processing on these files which extracts scores from the SD-files and selects the best score for each.</h3>
 
 
+<h1> Visualization </h1>
+It can be useful to visualize the compounds generated.
+We followed the below instructions for visualising the compounds.
+```
+Visualisation Tool: toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_svg_depiction/openbabel_svg_depiction/3.1.1+galaxy0 with the following parameters:
+“Molecular input file”: Compound library
+“Embed molecule as CML”: No
+“Draw all carbon atoms”: No
+“Use thicker lines”: No
+“Property to display under the molecule”: Molecule title
+“Sort the displayed molecules by”: Molecular weight
+“Format of the resultant picture”: SVG
+```
 
+<h3>This produces an SVG image of all the structures generated ordered by molecular weight.</h3>
 
-
+![image](https://user-images.githubusercontent.com/68779543/139438782-3e50e8a7-6c27-4b4b-a553-7e1989e7d534.png)
 
 
 
