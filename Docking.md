@@ -174,12 +174,20 @@ Rename to ‘Docking config file’.
 
  
  
+<h1> Docking </h1>
+Now that the protein and the ligand library have been correctly prepared and formatted, docking can be performed
+Search for **Docking** in the search tools  and set it with the following paramters.
+```
+Docking Tool: with the following parameters:
+“Receptor”: ‘Protein PDBQT’ file.
+“Ligands”: ‘Prepared ligands’ file.
+“Specify pH value for ligand protonation”: 7.4
+“Specify parameters”: ‘Upload a config file to specify parameters’
+“Box configuration”: ‘Docking config file’
+“Exhaustiveness”: leave blank (it was specified in the previous step)
+```
 
-
-
-
-
-
+<h3>The output consists of a collection, which contains an SDF output file for each ligand, containing multiple docking poses and scoring files for each of the ligands. We will now perform some processing on these files which extracts scores from the SD-files and selects the best score for each.</h3>
 
 
 
