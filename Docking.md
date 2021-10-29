@@ -187,6 +187,10 @@ Docking Tool: with the following parameters:
 “Exhaustiveness”: leave blank (it was specified in the previous step)
 ```
 
+![image](https://user-images.githubusercontent.com/68779543/139438093-fed1e404-a226-4b95-8130-b3a3b6fd648a.png)
+
+This is how the data looks like of ligand 10 docked.
+
 <h3>The output consists of a collection, which contains an SDF output file for each ligand, containing multiple docking poses and scoring files for each of the ligands. We will now perform some processing on these files which extracts scores from the SD-files and selects the best score for each.</h3>
 
 
