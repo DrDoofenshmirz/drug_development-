@@ -8,12 +8,22 @@ Cheminformatics is the use of computational techniques and information about mol
 
 <h2 align = "center" > Getting the data related to the Hsp 90 Protein </h2> 
 
-```
-1.	Create a new history for this tutorial
-2.	Search Galaxy for the Get PDB Tool: Request the accession code 2brc.
-3.	Rename the dataset to ‘Hsp90 structure’
-4.	Check that the datatype is correct (PDB file).
-```
+
+Create a new history for this tutorial
+
+ Rename the dataset to ‘Hsp90 structure’
+
+
+	<h3>Search Galaxy for the Get PDB Tool: Request the accession code 2brc.</h3>
+![image](https://user-images.githubusercontent.com/68779543/139439463-a6fff0f4-880d-4ca6-aa13-4fe16656f081.png)
+
+	<h3>Rename the dataset tp 'Hsp90 structure .</h3>
+![image](https://user-images.githubusercontent.com/68779543/139439613-99d4219c-af98-4c75-834a-a91c90e78c5a.png)
+
+
+	<h3>	Check that the datatype is correct (PDB file).</h3>
+ ![image](https://user-images.githubusercontent.com/68779543/139440098-5a44bc54-36d0-42e1-8b13-6b93f687fd61.png)
+
 
 ![image](https://user-images.githubusercontent.com/68779543/139321512-81da1b9d-5eb2-4b59-8ced-b9ae7aa20dba.png)
 
