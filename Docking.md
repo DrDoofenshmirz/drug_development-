@@ -147,11 +147,33 @@ We search for  the Chembl database and use the Ligand SMILES file as our input  
 
 
 
+<h1> Prepare files for docking </h1>
+ A processing step now needs to be applied to the protein structure and the docking candidates - each of the structures needs to be converted to PDBQT format before using the AutoDock Vina docking tool.
+
+Further, docking requires the coordinates of a binding site to be defined. Effectively, this defines a ‘box’ in which the docking software attempts to define an optimal binding site. In this case, we already know the location of the binding site, since the downloaded PDB structure contained a bound ligand. There is a tool in Galaxy which can be used to automatically create a configuration file for docking when ligand coordinates are already known.
+
+In this , we worked on compound conversion form of the protein and the CHEMBL search ligands to PDBQT format.  We searched for ‘Prepare receptor’ in the Galaxy tools and selected  “Protein PDB file” as the ‘Select a PDB file’ while all other parameters were left as default. 
+
+ For the Ligands conversion, we searched for  Compound conversion in the Galaxy tools and select  “Compound library” file as the “Molecular input file”; selected “SDF” as the “Output format”; select “Yes” for the “Generate 3D coordinates”; set “Add hydrogens appropriate for pH” to 7.4 while all other parameters were left as default. Rename to ‘Prepared ligands’
 
 
+![image](https://user-images.githubusercontent.com/68779543/139435148-339087aa-8ac8-466f-8197-1a96629aaa09.png)
 
+Output of 'Prepared Ligands '.
+ 
+``` 
+Calculate the box parameters for an AutoDock Vina job Tool:  with the following  “Input ligand or pocket”: Ligand (MOL) file.
+“x-axis buffer”: 5
+“y-axis buffer”: 5
+“z-axis buffer”: 5
+“Random seed”: 1
+Rename to ‘Docking config file’.
+```
 
+![image](https://user-images.githubusercontent.com/68779543/139435702-5bba954a-25e6-4e39-90ad-964007b452bf.png)
 
+ 
+ 
 
 
 
