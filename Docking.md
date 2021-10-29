@@ -353,7 +353,7 @@ Scatter plot 📊 📈 📉: A scatter plot is a type of plot or mathematical di
 1. G rep - @ohdrija 2️⃣ @Akhereose
 2. compound conversion- @SuvaniErranki @Aribisala
 3. Chembl database @priss @israelebhohimen
-4. Calculating box parameters -
+4. Calculating box parameters -@Prem
 5. vina docking @chaarvi @mitykay
 6. visualization @toluwalase @yash11
 7. calculating molecular fingerprints & clustering @Prem  @Toheeb
