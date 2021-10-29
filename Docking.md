@@ -186,6 +186,7 @@ Rename to ‘Docking config file’.
  
  
 <h1> Docking </h1>
+After preparing and formatting the protein and the ligand library, docking was performed. For this, the tool used was VINA Docking which is used to perform protein-ligand docking with Autodock Vina (Galaxy Version 1.1.2+galaxy0)
 Now that the protein and the ligand library have been correctly prepared and formatted, docking can be performed
 Search for **Docking** in the search tools  and set it with the following paramters.
 
@@ -204,10 +205,17 @@ Search for **Docking** in the search tools  and set it with the following paramt
 
 “Exhaustiveness”: leave blank (it was specified in the previous step)
 ```
+The files describing the receptor (in pdbqt format) and ligands (in SDF of PDBQT format) are the first two inputs required. Receptor and ligand preparation tools generate these files. Only one ligand can be specified using the PDBQT format for the ligands. Multiple ligands can be specified when using SDF, and those ligands are converted to individual PDBQT format files using openbabel as the tool's initial step. Each ligand in the SDF file will be docked progressively by VINA. Furthermore, docking parameters must be established. Here a config file was uploaded containing Cartesian coordinates of the center of the binding site- such a file can be generated from the box parameter calculation file.
+The result is a collection comprising an SDF output file for each ligand, as well as various docking postures and scoring files for each ligand.
+We can see below that we obtained individual sdf output files for 13 ligands. 
 
-![image](https://user-images.githubusercontent.com/68779543/139438093-fed1e404-a226-4b95-8130-b3a3b6fd648a.png)
+![image](https://user-images.githubusercontent.com/68779543/139452594-420ec669-5c88-4ff3-8f81-357568ae3e1a.png)
 
-This is how the data looks like of ligand 10 docked.
+For example, here is the sdf file of the Ligand 1 i.e “ligand1_docked”-
+![image](https://user-images.githubusercontent.com/68779543/139452656-f4cd3d0f-79f1-43a3-8a3f-20eae751720d.png)
+
+
+
 
 <h3>The output consists of a collection, which contains an SDF output file for each ligand, containing multiple docking poses and scoring files for each of the ligands. We will now perform some processing on these files which extracts scores from the SD-files and selects the best score for each.</h3>
 
