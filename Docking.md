@@ -14,7 +14,7 @@ Create a new history for this tutorial
 
 
 
- Rename the dataset to ‘Hsp90 structure’
+
 
 
 	Search Galaxy for the Get PDB Tool: Request the accession code 2brc.
