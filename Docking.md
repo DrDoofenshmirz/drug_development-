@@ -405,4 +405,4 @@ Scatter plot 📊 📈 📉: A scatter plot is a type of plot or mathematical di
 
 8. Post processing @JananiSankar @ZainabAdamu  
 
-9. Proposal - @Quadri 
+9. Proposal - @Quadri  & @toluwalase
