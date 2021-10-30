@@ -151,11 +151,14 @@ We search for  the Chembl database and use the Ligand SMILES file as our input  
  
 ![image](https://user-images.githubusercontent.com/68779543/139316685-a84ec431-ea89-408e-bf9d-86aedd10b81b.png)
  
+	
+*Check that the datatype is correct (smi). This step is essential, as Galaxy does not automatically detect the datatype for SMILES files*
  
  Here we can see that our file has been executed and saved .
 ![image](https://user-images.githubusercontent.com/68779543/139317100-84ca9504-1035-4481-ae03-2c3b09bef9ef.png)
 
  Finally we have the output saved under the name ' Compound Library '
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/68779543/139318539-669abee5-d542-40d3-ba47-f75bd8e4e67b.png">
 
