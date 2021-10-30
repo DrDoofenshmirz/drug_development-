@@ -11,17 +11,20 @@ Cheminformatics is the use of computational techniques and information about mol
 
 Create a new history for this tutorial
 
+
+
+
  Rename the dataset to ‘Hsp90 structure’
 
 
-	<h3>Search Galaxy for the Get PDB Tool: Request the accession code 2brc.</h3>
+	Search Galaxy for the Get PDB Tool: Request the accession code 2brc.
 ![image](https://user-images.githubusercontent.com/68779543/139439463-a6fff0f4-880d-4ca6-aa13-4fe16656f081.png)
 
-	<h3>Rename the dataset tp 'Hsp90 structure .</h3>
+	Rename the dataset tp 'Hsp90 structure .
 ![image](https://user-images.githubusercontent.com/68779543/139439613-99d4219c-af98-4c75-834a-a91c90e78c5a.png)
 
 
-	<h3>	Check that the datatype is correct (PDB file).</h3>
+		Check that the datatype is correct (PDB file)
  ![image](https://user-images.githubusercontent.com/68779543/139440098-5a44bc54-36d0-42e1-8b13-6b93f687fd61.png)
 
 ![image](https://user-images.githubusercontent.com/68779543/139452878-39c0ec4a-2c60-4977-b998-6119ac092eec.png)
@@ -210,11 +213,16 @@ The files describing the receptor (in pdbqt format) and ligands (in SDF of PDBQT
 The result is a collection comprising an SDF output file for each ligand, as well as various docking postures and scoring files for each ligand.
 We can see below that we obtained individual sdf output files for 13 ligands. 
 
-![image](https://user-images.githubusercontent.com/68779543/139452594-420ec669-5c88-4ff3-8f81-357568ae3e1a.png)
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/68779543/139452594-420ec669-5c88-4ff3-8f81-357568ae3e1a.png" width = 200>
+
+
 
 For example, here is the sdf file of the Ligand 1 i.e “ligand1_docked”-
 
-![image](https://user-images.githubusercontent.com/68779543/139452656-f4cd3d0f-79f1-43a3-8a3f-20eae751720d.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/68779543/139452656-f4cd3d0f-79f1-43a3-8a3f-20eae751720d.png">
+
 
 
 
@@ -393,3 +401,5 @@ Scatter plot 📊 📈 📉: A scatter plot is a type of plot or mathematical di
 7. calculating molecular fingerprints & clustering @Prem  @Toheeb
 
 8. Post processing @JananiSankar @ZainabAdamu  
+
+9. Proposal - @Quadri 
