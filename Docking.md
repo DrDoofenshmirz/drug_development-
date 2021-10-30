@@ -395,7 +395,7 @@ Scatter plot 📊 📈 📉: A scatter plot is a type of plot or mathematical di
 
 3. Chembl database @priss @israelebhohimen
 
-4. Calculating box parameters -@Prem
+4. Calculating box parameters -@Prem @Olanrewaju
 
 5. vina docking @chaarvi @mitykay
 
@@ -405,4 +405,4 @@ Scatter plot 📊 📈 📉: A scatter plot is a type of plot or mathematical di
 
 8. Post processing @JananiSankar @ZainabAdamu  
 
-9. Proposal - @Quadri  & @toluwalase
+9. Proposal - @Quadri  & @toluwalase & @priss
